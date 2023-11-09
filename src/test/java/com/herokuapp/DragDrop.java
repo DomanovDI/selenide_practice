@@ -19,5 +19,6 @@ public class DragDrop {
         $("#column-a").dragAndDrop(DragAndDropOptions.to("#column-b"));
         $("#column-a").shouldHave(text("B"));
         //actions().moveToElement($("#column-a")).clickAndHold().moveByOffset(250, 0).release().perform();
+        //Строчка кода для создания конфликта в Гите
     }
 }
