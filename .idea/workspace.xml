@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="first 3 tests on github.com">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/DragDrop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DomanovDI&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="76018169-3e6f-417e-9763-35788ac98356" />
+        <option name="url" value="https://github.com/DomanovDI/selenide_practice.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -48,7 +64,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DragDrop.dragAndDropTest">
+    <configuration name="DragDrop.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="com.herokuapp.DragDrop" />
+      <option name="METHOD_NAME" value="dragAndDropTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
@@ -64,8 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTests.hoverForSolutions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github" />
+      <option name="MAIN_CLASS_NAME" value="com.github.SearchTests" />
+      <option name="METHOD_NAME" value="hoverForSolutions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DragDrop.dragAndDropTest" />
+        <item itemvalue="JUnit.SearchTests.hoverForSolutions" />
         <item itemvalue="JUnit.SearchTests" />
       </list>
     </recent_temporary>
@@ -87,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699432041698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first 3 tests on github.com">
+      <option name="closed" value="true" />
+      <created>1699432554907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699432554907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

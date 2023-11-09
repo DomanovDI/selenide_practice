@@ -1,9 +1,9 @@
 package com.github;
 
-import com.codeborne.selenide.Selectors;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
@@ -21,7 +21,7 @@ public class SearchTests {
     @Test
     void bestContributorTest() {
         open("https://github.com/selenide/selenide");
-        $(".BorderGrid").$(Selectors.byText("Contributors"))
+        $(".BorderGrid").$(byText("Contributors"))
                 .ancestor(".BorderGrid-row").$$("ul li").first().hover();
         $(".Popover").shouldHave(text("Andrei Solntsev"));
     }
@@ -30,7 +30,18 @@ public class SearchTests {
     void exampleCodeForJUnit5() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
-        $("#wiki-body").$(Selectors.byText("Soft assertions")).click();
+        $("#wiki-body").$(byText("Soft assertions")).click();
         $("#wiki-body").shouldHave(text("Using JUnit5 extend test class"));
+    }
+
+    @Test
+    void hoverForSolutions() {
+        /* На главной странице GitHub выберите меню Solutions -> Enterprize с помощью команды hover для Solutions.
+        Убедитесь что загрузилась нужная страница (например что заголовок - "The AI-powered" */
+        open("https://github.com/");
+        $(byText("Solutions")).hover();
+        $(byText("Enterprise")).click();
+        $(".application-main").shouldHave(text("The AI-powered"));
+        sleep(5000);
     }
 }
