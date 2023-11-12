@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="another 2 tests" />
+    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add demoqa.com TextBoxTests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TextBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TextBoxTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DragDrop.dragAndDropTest">
+  <component name="RunManager" selected="JUnit.TextBoxTests">
     <configuration name="DragDrop.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
@@ -108,8 +111,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextBoxTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.TextBoxTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextBoxTests.fillFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.TextBoxTests" />
+      <option name="METHOD_NAME" value="fillFormTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TextBoxTests" />
+        <item itemvalue="JUnit.TextBoxTests.fillFormTest" />
         <item itemvalue="JUnit.DragDrop.dragAndDropTest" />
         <item itemvalue="JUnit.SearchTests.hoverForSolutions" />
         <item itemvalue="JUnit.SearchTests" />
@@ -157,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699522419486</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add demoqa.com TextBoxTests">
+      <option name="closed" value="true" />
+      <created>1699721059773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699721059773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +218,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first 3 tests on github.com" />
     <MESSAGE value="another 2 tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="another 2 tests" />
+    <MESSAGE value="add demoqa.com TextBoxTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add demoqa.com TextBoxTests" />
   </component>
 </project>

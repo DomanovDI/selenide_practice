@@ -18,15 +18,21 @@ public class TextBoxTests {
 
     @Test
     void fillFormTest() {
+        String userName = "Dmitriy D";
+        String userEmail = "dmitryd@gmail.com";
+        String currentAddress = "Address 1";
+        String permanentAddress = "Address 2";
         open("/text-box");
         $(".main-header").shouldHave(text("Text Box"));
-        $("#userName").setValue("Dmitriy D");
-        $("#userEmail").setValue("dmitryd@gmail.com");
-        $("#currentAddress").setValue("Address 1");
-        $("#permanentAddress").setValue("Address 2");
+        $("#userName").setValue(userName);
+        $("#userEmail").setValue(userEmail);
+        $("#currentAddress").setValue(currentAddress);
+        $("#permanentAddress").setValue(permanentAddress);
         $("#submit").click();
         $("#output").shouldBe(visible);
-        $("#output").$("#name").shouldHave(text("Dmitriy D"));
-        $("#output #email").shouldHave(text("dmitryd@gmail.com"));
+        $("#output").$("#name").shouldHave(text(userName));
+        $("#output #email").shouldHave(text(userEmail));
+        $("#output #currentAddress").shouldHave(text(currentAddress));
+        $("#output #permanentAddress").shouldHave(text(permanentAddress));
     }
 }
