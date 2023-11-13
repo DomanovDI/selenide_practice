@@ -36,7 +36,7 @@ public class CssXpathExamples {
         $(".inputtext .login_form_input_box").setValue("1");
         $(".inputtext").$(".login_form_input_box").setValue("1");
 
-        // <div>Hello qa.guru</div>
+        // <div>Hello</div>
         $x("//div[text()='Hello']").click();
         $(byText("Hello")).click();
         $(withText("ell")).click();
