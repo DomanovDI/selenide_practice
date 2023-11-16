@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add CssXpathExamples">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" afterDir="false" />
+    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add automationPracticeFillFormTest demoqa.com">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/AutomationPracticeFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/RegistrationResultsModal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/locators/CssXpathExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/locators/CssXpathExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,18 +58,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/ddomanov/IdeaProjects/untitled/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ddomanov/IdeaProjects/AFT&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ddomanov/IdeaProjects/untitled/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.demoqa" />
@@ -218,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699784498508</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add automationPracticeFillFormTest demoqa.com">
+      <option name="closed" value="true" />
+      <created>1699876148989</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699876148989</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +249,7 @@
     <MESSAGE value="another 2 tests" />
     <MESSAGE value="add demoqa.com TextBoxTests" />
     <MESSAGE value="add CssXpathExamples" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CssXpathExamples" />
+    <MESSAGE value="add automationPracticeFillFormTest demoqa.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="add automationPracticeFillFormTest demoqa.com" />
   </component>
 </project>

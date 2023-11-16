@@ -1,24 +1,18 @@
 package com.demoqa;
 
-import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
 
-public class AutomationPracticeFormTests {
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.browserSize = "1920*1080";
-        Configuration.baseUrl = "https://demoqa.com";
-    }
+public class AutomationPracticeFormTests extends TestBase {
+
 
     @Test
-    void automationPracticeFillFormTest() {
+    void automationPracticeFormTest() {
         String firstName = "Dmitriy";
         String lastName = "Dimqooo";
         String email = "dimqoooo@gmail.com";
@@ -27,47 +21,49 @@ public class AutomationPracticeFormTests {
         String year = "1990";
         String month = "March";
         String day = "31";
-        String subject1 = "Computer Science";
-        String subject2 = "Maths";
+        String subject = "Computer Science";
         String hobbies = "Music";
         String fileName = "Untitled.jpg";
         String address = "Russia";
         String state = "NCR";
         String city = "Gurgaon";
 
-        open("/automation-practice-form");
-        executeJavaScript("$('#fixedban').remove()");
-        executeJavaScript("$('footer').remove()");
-        $(".main-header").shouldHave(text("Practice Form"));
-        $("#firstName").setValue(firstName);
-        $("#lastName").setValue(lastName);
-        $("#userEmail").setValue(email);
-        $("#genterWrapper").$(byText(sex)).click();
-        $("#userNumber").setValue(phoneNumber);
-        $("#dateOfBirthInput").click();
-        $(".react-datepicker__year-select").selectOptionContainingText(year);
-        $(".react-datepicker__month-select").selectOptionContainingText(month);
-        $(".react-datepicker__day--031").click();
-        $("#subjectsInput").setValue(subject1).pressEnter();
-        $("#subjectsInput").setValue(subject2).pressEnter();
-        $("[for=hobbies-checkbox-3]").click();
-        $("#uploadPicture").uploadFile(new File("src/test/resources/" + fileName));
-        $("#currentAddress").setValue(address);
-        $("#state").click();
-        $(byText(state)).click();
-        $("#city").click();
-        $(byText(city)).click();
-        $("#submit").click();
-        //проверки
-        $(".table-responsive").$(byText("Student Name")).sibling(0).shouldHave(text(firstName + " " + lastName));
-        $(".table-responsive").$(byText("Student Email")).sibling(0).shouldHave(text(email));
-        $(".table-responsive").$(byText("Gender")).sibling(0).shouldHave(text(sex));
-        $(".table-responsive").$(byText("Mobile")).sibling(0).shouldHave(text(phoneNumber));
-        $(".table-responsive").$(byText("Date of Birth")).sibling(0).shouldHave(text(day + " " + month + "," + year));
-        $(".table-responsive").$(byText("Subjects")).sibling(0).shouldHave(text(subject1 + ", " + subject2));
-        $(".table-responsive").$(byText("Hobbies")).sibling(0).shouldHave(text(hobbies));
-        $(".table-responsive").$(byText("Picture")).sibling(0).shouldHave(text(fileName));
-        $(".table-responsive").$(byText("Address")).sibling(0).shouldHave(text(address));
-        $(".table-responsive").$(byText("State and City")).sibling(0).shouldHave(text(state + " " + city));
+        automationPracticeFormPage.openPage()
+                .setFirstName(firstName)
+                .setLastName(lastName)
+                .setEmail(email)
+                .setPhoneNumber(phoneNumber)
+                .setGender(sex)
+                .setBirthDate(day,month,year)
+                .setSubject(subject)
+                .setHobbies(hobbies)
+                .setFile(fileName)
+                .setAddress(address)
+                .setState(state)
+                .setCity(city)
+                .submit();
+
+        automationPracticeFormPage.verifyResultsModalAppears()
+                .verifyResult("Student Name", firstName + " " + lastName)
+                .verifyResult("Student Email", email)
+                .verifyResult("Gender", sex)
+                .verifyResult("Mobile", phoneNumber)
+                .verifyResult("Date of Birth", day + " " + month + "," + year)
+                .verifyResult("Subjects", subject)
+                .verifyResult("Hobbies", hobbies)
+                .verifyResult("Picture", fileName)
+                .verifyResult("Address", address)
+                .verifyResult("State and City", state + " " + city);
+
+//        $(".table-responsive").$(byText("Student Name")).sibling(0).shouldHave(text(firstName + " " + lastName));
+//        $(".table-responsive").$(byText("Student Email")).sibling(0).shouldHave(text(email));
+//        $(".table-responsive").$(byText("Gender")).sibling(0).shouldHave(text(sex));
+//        $(".table-responsive").$(byText("Mobile")).sibling(0).shouldHave(text(phoneNumber));
+//        $(".table-responsive").$(byText("Date of Birth")).sibling(0).shouldHave(text(day + " " + month + "," + year));
+//        $(".table-responsive").$(byText("Subjects")).sibling(0).shouldHave(text(subject1 + ", " + subject2));
+//        $(".table-responsive").$(byText("Hobbies")).sibling(0).shouldHave(text(hobbies));
+//        $(".table-responsive").$(byText("Picture")).sibling(0).shouldHave(text(fileName));
+//        $(".table-responsive").$(byText("Address")).sibling(0).shouldHave(text(address));
+//        $(".table-responsive").$(byText("State and City")).sibling(0).shouldHave(text(state + " " + city));
     }
 }
