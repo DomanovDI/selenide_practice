@@ -2,12 +2,6 @@ package com.demoqa;
 
 import org.junit.jupiter.api.Test;
 
-import java.io.File;
-
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-
 public class AutomationPracticeFormTests extends TestBase {
 
 
@@ -54,16 +48,5 @@ public class AutomationPracticeFormTests extends TestBase {
                 .verifyResult("Picture", fileName)
                 .verifyResult("Address", address)
                 .verifyResult("State and City", state + " " + city);
-
-//        $(".table-responsive").$(byText("Student Name")).sibling(0).shouldHave(text(firstName + " " + lastName));
-//        $(".table-responsive").$(byText("Student Email")).sibling(0).shouldHave(text(email));
-//        $(".table-responsive").$(byText("Gender")).sibling(0).shouldHave(text(sex));
-//        $(".table-responsive").$(byText("Mobile")).sibling(0).shouldHave(text(phoneNumber));
-//        $(".table-responsive").$(byText("Date of Birth")).sibling(0).shouldHave(text(day + " " + month + "," + year));
-//        $(".table-responsive").$(byText("Subjects")).sibling(0).shouldHave(text(subject1 + ", " + subject2));
-//        $(".table-responsive").$(byText("Hobbies")).sibling(0).shouldHave(text(hobbies));
-//        $(".table-responsive").$(byText("Picture")).sibling(0).shouldHave(text(fileName));
-//        $(".table-responsive").$(byText("Address")).sibling(0).shouldHave(text(address));
-//        $(".table-responsive").$(byText("State and City")).sibling(0).shouldHave(text(state + " " + city));
     }
 }

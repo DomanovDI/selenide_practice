@@ -36,8 +36,6 @@ public class SearchTests {
 
     @Test
     void hoverForSolutions() {
-        /* На главной странице GitHub выберите меню Solutions -> Enterprize с помощью команды hover для Solutions.
-        Убедитесь что загрузилась нужная страница (например что заголовок - "The AI-powered" */
         open("https://github.com/");
         $(byText("Solutions")).hover();
         $(byText("Enterprise")).click();
