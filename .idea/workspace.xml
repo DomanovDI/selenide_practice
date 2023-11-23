@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add pageObject for demoqa.com">
+    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="optimize comments">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedCSVFileSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedCSVSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedMethodSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedValueSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/SearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/herokuapp/DragDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/herokuapp/DragDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/TextBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TextBoxTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,98 +60,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/ddomanov/IdeaProjects/untitled1",
-    "onboarding.tips.debug.path": "C:/Users/ddomanov/IdeaProjects/untitled/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ddomanov/IdeaProjects/untitled1&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ddomanov/IdeaProjects/untitled/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.demoqa" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.kinopoisk" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AutomationPracticeFormTests">
-    <configuration name="AutomationPracticeFormTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParametrizedMethodSourceTest">
+    <configuration name="ParametrizedCSVFileSourceTest.subjectsNameShouldBePresentInResultsByLettersQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demoqa.*" />
+          <option name="PATTERN" value="ru.kinopoisk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.AutomationPracticeFormTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutomationPracticeFormTests.automationPracticeFillFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.AutomationPracticeFormTests" />
-      <option name="METHOD_NAME" value="automationPracticeFillFormTest" />
+      <option name="PACKAGE_NAME" value="ru.kinopoisk" />
+      <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.ParametrizedCSVFileSourceTest" />
+      <option name="METHOD_NAME" value="subjectsNameShouldBePresentInResultsByLettersQuery(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragDrop.dragAndDropTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedCSVSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.herokuapp.*" />
+          <option name="PATTERN" value="ru.kinopoisk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.herokuapp" />
-      <option name="MAIN_CLASS_NAME" value="com.herokuapp.DragDrop" />
-      <option name="METHOD_NAME" value="dragAndDropTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextBoxTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.TextBoxTests" />
+      <option name="PACKAGE_NAME" value="ru.kinopoisk" />
+      <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.ParametrizedCSVSourceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextBoxTests.fillFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedCSVSourceTest.subjectsNameShouldBePresentInResultsByLettersQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demoqa.*" />
+          <option name="PATTERN" value="ru.kinopoisk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.TextBoxTests" />
-      <option name="METHOD_NAME" value="fillFormTest" />
+      <option name="PACKAGE_NAME" value="ru.kinopoisk" />
+      <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.ParametrizedCSVSourceTest" />
+      <option name="METHOD_NAME" value="subjectsNameShouldBePresentInResultsByLettersQuery(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametrizedMethodSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kinopoisk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kinopoisk" />
+      <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.ParametrizedMethodSourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametrizedValueSourceTest.subjectsNameShouldBePresentInResultsByLettersQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kinopoisk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.kinopoisk" />
+      <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.ParametrizedValueSourceTest" />
+      <option name="METHOD_NAME" value="subjectsNameShouldBePresentInResultsByLettersQuery(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AutomationPracticeFormTests" />
-        <item itemvalue="JUnit.AutomationPracticeFormTests.automationPracticeFillFormTest" />
-        <item itemvalue="JUnit.TextBoxTests" />
-        <item itemvalue="JUnit.TextBoxTests.fillFormTest" />
-        <item itemvalue="JUnit.DragDrop.dragAndDropTest" />
+        <item itemvalue="JUnit.ParametrizedMethodSourceTest" />
+        <item itemvalue="JUnit.ParametrizedValueSourceTest.subjectsNameShouldBePresentInResultsByLettersQuery" />
+        <item itemvalue="JUnit.ParametrizedCSVFileSourceTest.subjectsNameShouldBePresentInResultsByLettersQuery" />
+        <item itemvalue="JUnit.ParametrizedCSVSourceTest.subjectsNameShouldBePresentInResultsByLettersQuery" />
+        <item itemvalue="JUnit.ParametrizedCSVSourceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700148531902</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="optimize comments">
+      <option name="closed" value="true" />
+      <created>1700670507585</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700670507585</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +272,7 @@
     <MESSAGE value="add CssXpathExamples" />
     <MESSAGE value="add automationPracticeFillFormTest demoqa.com" />
     <MESSAGE value="add pageObject for demoqa.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pageObject for demoqa.com" />
+    <MESSAGE value="optimize comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize comments" />
   </component>
 </project>
