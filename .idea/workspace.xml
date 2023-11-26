@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add FilesParsingTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/fileparse/JSONParsingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fileparse/model/Sample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sample.json" afterDir="false" />
+    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add JSONParsingTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fileparse/JSONParsingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fileparse/JSONParsingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700994369201</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add JSONParsingTest">
+      <option name="closed" value="true" />
+      <created>1700998480305</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700998480305</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -294,6 +300,7 @@
     <MESSAGE value="optimize comments" />
     <MESSAGE value="add parametrized tests on kinopoisk.ru" />
     <MESSAGE value="add FilesParsingTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add FilesParsingTest" />
+    <MESSAGE value="add JSONParsingTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add JSONParsingTest" />
   </component>
 </project>
