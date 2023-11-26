@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add parametrized tests on kinopoisk.ru">
-      <change afterPath="$PROJECT_DIR$/src/test/java/fileparse/FilesParsingTest.java" afterDir="false" />
+    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add FilesParsingTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/fileparse/JSONParsingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fileparse/model/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sample.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedCSVFileSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedCSVFileSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedMethodSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedMethodSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedValueSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/kinopoisk/ParametrizedValueSourceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <recent name="ru.kinopoisk" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FilesParsingTest">
+  <component name="RunManager" selected="JUnit.JSONParsingTest.jsonParseTest">
     <configuration name="FilesParsingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
@@ -130,32 +129,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametrizedMethodSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JSONParsingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.kinopoisk.*" />
+          <option name="PATTERN" value="fileparse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.kinopoisk" />
-      <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.ParametrizedMethodSourceTest" />
+      <option name="PACKAGE_NAME" value="fileparse" />
+      <option name="MAIN_CLASS_NAME" value="fileparse.JSONParsingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametrizedValueSourceTest.subjectsNameShouldBePresentInResultsByLettersQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JSONParsingTest.jsonParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.kinopoisk.*" />
+          <option name="PATTERN" value="fileparse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.kinopoisk" />
-      <option name="MAIN_CLASS_NAME" value="ru.kinopoisk.ParametrizedValueSourceTest" />
-      <option name="METHOD_NAME" value="subjectsNameShouldBePresentInResultsByLettersQuery(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="fileparse" />
+      <option name="MAIN_CLASS_NAME" value="fileparse.JSONParsingTest" />
+      <option name="METHOD_NAME" value="jsonParseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONParsingTest.jsonParseTest" />
+        <item itemvalue="JUnit.JSONParsingTest" />
         <item itemvalue="JUnit.FilesParsingTest" />
         <item itemvalue="JUnit.FilesParsingTest.unzipParseTest" />
         <item itemvalue="JUnit.FilesParsingTest.zipParseTest" />
-        <item itemvalue="JUnit.ParametrizedMethodSourceTest" />
-        <item itemvalue="JUnit.ParametrizedValueSourceTest.subjectsNameShouldBePresentInResultsByLettersQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700724469931</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add FilesParsingTest">
+      <option name="closed" value="true" />
+      <created>1700994369201</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700994369201</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -286,21 +293,7 @@
     <MESSAGE value="add pageObject for demoqa.com" />
     <MESSAGE value="optimize comments" />
     <MESSAGE value="add parametrized tests on kinopoisk.ru" />
-    <option name="LAST_COMMIT_MESSAGE" value="add parametrized tests on kinopoisk.ru" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/fileparse/FilesParsingTest.java</url>
-          <line>33</line>
-          <properties class="fileparse.FilesParsingTest" method="unzipParseTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add FilesParsingTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FilesParsingTest" />
   </component>
 </project>
