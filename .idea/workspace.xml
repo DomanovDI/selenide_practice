@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add JSONParsingTest">
+    <list default="true" id="44ccdd88-bdd1-4607-8ab6-e19f3ff446b7" name="Changes" comment="add jackson-databind to build.gradle">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/AutomationPracticeFormTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/pages/components/CalendarComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fileparse/JSONParsingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fileparse/JSONParsingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fileparse/model/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fileparse/model/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,38 @@
       <recent name="ru.kinopoisk" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JSONParsingTest.jsonParseTest">
+  <component name="RunManager" selected="JUnit.AutomationPracticeFormTests">
+    <configuration name="AutomationPracticeFormTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.AutomationPracticeFormTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationPracticeFormTests.automationPracticeFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.AutomationPracticeFormTests" />
+      <option name="METHOD_NAME" value="automationPracticeFormTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilesParsingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled.test" />
       <extension name="coverage">
@@ -91,38 +126,6 @@
       <option name="PACKAGE_NAME" value="fileparse" />
       <option name="MAIN_CLASS_NAME" value="fileparse.FilesParsingTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilesParsingTest.unzipParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileparse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fileparse" />
-      <option name="MAIN_CLASS_NAME" value="fileparse.FilesParsingTest" />
-      <option name="METHOD_NAME" value="unzipParseTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilesParsingTest.zipParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fileparse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fileparse" />
-      <option name="MAIN_CLASS_NAME" value="fileparse.FilesParsingTest" />
-      <option name="METHOD_NAME" value="zipParseTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutomationPracticeFormTests" />
+        <item itemvalue="JUnit.AutomationPracticeFormTests.automationPracticeFormTest" />
         <item itemvalue="JUnit.JSONParsingTest.jsonParseTest" />
         <item itemvalue="JUnit.JSONParsingTest" />
         <item itemvalue="JUnit.FilesParsingTest" />
-        <item itemvalue="JUnit.FilesParsingTest.unzipParseTest" />
-        <item itemvalue="JUnit.FilesParsingTest.zipParseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700998480305</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add jackson-databind to build.gradle">
+      <option name="closed" value="true" />
+      <created>1700998658437</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700998658437</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -301,6 +312,7 @@
     <MESSAGE value="add parametrized tests on kinopoisk.ru" />
     <MESSAGE value="add FilesParsingTest" />
     <MESSAGE value="add JSONParsingTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add JSONParsingTest" />
+    <MESSAGE value="add jackson-databind to build.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add jackson-databind to build.gradle" />
   </component>
 </project>

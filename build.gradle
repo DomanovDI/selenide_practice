@@ -16,7 +16,8 @@ dependencies {
             'com.codeborne:xls-test:1.4.3',
             'com.opencsv:opencsv:5.7.1',
             'com.fasterxml.jackson.core:jackson-core:2.16.0',
-            'com.fasterxml.jackson.core:jackson-databind:2.16.0'
+            'com.fasterxml.jackson.core:jackson-databind:2.16.0',
+            'com.github.javafaker:javafaker:1.0.2'
     )
 }
 

@@ -22,6 +22,7 @@ public class JSONParsingTest {
         ){
             Sample sample = mapper.readValue(reader, Sample.class);
             assertThat(sample.firstName).isEqualTo("Joe");
+            assertThat(sample.lastName).isEqualTo("Jackson");
             assertThat(sample.age).isEqualTo(28);
             assertThat(sample.address.city).contains("Diego");
             assertThat(sample.phoneNumbers).contains("8888888888","777777777");

@@ -2,8 +2,6 @@ package fileparse.model;
 
 import com.fasterxml.jackson.annotation.JsonSetter;
 
-import java.util.Map;
-
 public class Sample {
     public String firstName;
     @JsonSetter("last_Name")
