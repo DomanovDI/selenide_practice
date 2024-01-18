@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
+import ru.kinopoisk.config.WebDriverProvider;
 
 import java.io.File;
 
@@ -17,7 +18,7 @@ public class ParametrizedCSVFileSourceTest {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = "https://www.kinopoisk.ru/";
+        WebDriverProvider webDriverProvider = new WebDriverProvider();
         Configuration.browserSize = "1920x1080";
     }
 
